@@ -65,7 +65,7 @@ def Collection():
         headings_create(item)
 
     # data
-    library_df = pandas.read_excel("library_data.xlsx")
+    library_df = pandas.read_excel("./data/library_data.xlsx")
 
     # creat striped row tags
     my_tree.tag_configure("oddrow", background="white")
